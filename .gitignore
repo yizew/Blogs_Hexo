@@ -60,4 +60,5 @@ typings/
 .idea
 public
 db.json
+.deploy_git
 
