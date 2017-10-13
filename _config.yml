@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: pre-formatted code
+title: Hexo
 subtitle:
 description:
-author: Yize Wang
-language: English
-timezone: I have no idea
+author: John Doe
+language:
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -71,3 +71,4 @@ deploy:
   type: git
   repo: https://github.com/yizew/Blogs.git
   branch: master
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
